@@ -82,11 +82,11 @@ def Home():
     with total5:
         st.info('Ratings',icon="📌")
         st.metric(label="Rating",value=numerize(rating),help=f""" Total Rating: {rating} """)
-    style_metric_cards(background_color="#FFFFFF",border_left_color="#9900AD",border_color="#1f66bd",box_shadow="#F71938")
+    style_metric_cards(background_color="#FFFFFF",border_left_color="#00462F",border_color="#1f66bd",box_shadow="#F71938")
 
     #variable distribution Histogram
     with st.expander("⬇ EXPLORATORY VARIABLE DISTRIBUTIONS BY FREQUENCY: HISTOGRAM"):
-     df.hist(figsize=(16,8),color='#00588E', zorder=2, rwidth=0.9,legend = ['Investment']);
+     df.hist(figsize=(16,8),color='#00462F', zorder=2, rwidth=0.9,legend = ['Investment']);
      st.pyplot()
 
    
