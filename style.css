@@ -20,9 +20,3 @@ div[data-testid="stExpander"] div[role="button"] p
     color: white !important;
 }
 
-[data-testid=stSidebar] {
-    background-color: #0B3B4E;
-    font-size:34px;
-    color: white inherit;
-    font-size: larger;
-}
