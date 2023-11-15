@@ -17,9 +17,8 @@ st.set_page_config(page_title="Dashboard", page_icon="📈", layout="wide")
 st.header("PREDICTIVE ANALYTICS DASHBOARD")
 st.image("data/logo2.webp",caption="")
 st.write("MULTIPLE REGRESSION WITH  SSE, SE, SSR, SST, R2, ADJ[R2], RESIDUAL")
-st.write("The main objective is to measure if Number of family dependents and Wives may influence a person to supervise many projects")
-st.write("If the number of dependents and wives is large, the number of projects to manage will be few or many, so we are not sure as increase of X feature influences increase or decrease of Y feature")
-
+st.success("The main objective is to measure if Number of family dependents and Wives may influence a person to supervise many projects")
+ 
 # load CSS Style
 with open('style.css')as f:
     st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html = True)
